@@ -1,6 +1,7 @@
 ---
 title: Shopify Development
 date: '2017-03-22T14:51:00-04:00'
+layout: default
 categories:
 - JavaScript
 - PHP

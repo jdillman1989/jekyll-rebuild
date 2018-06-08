@@ -1,6 +1,7 @@
 ---
 title: Caching API Requests
 date: '2018-02-21T14:47:00-05:00'
+layout: default
 categories:
 - PHP
 - WordPress

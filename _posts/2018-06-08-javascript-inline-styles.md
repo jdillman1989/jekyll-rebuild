@@ -1,6 +1,7 @@
 ---
 title: Javascript Inline-Styles
 date: '2015-08-31T15:01:00-04:00'
+layout: default
 categories:
 - JavaScript
 - CSS

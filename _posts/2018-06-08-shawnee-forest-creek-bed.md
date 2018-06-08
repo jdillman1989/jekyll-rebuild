@@ -1,6 +1,7 @@
 ---
 title: Shawnee Forest Creek Bed
 date: '2016-03-01T14:57:00-05:00'
+layout: default
 categories:
 - Illustration
 ---

@@ -1,6 +1,7 @@
 ---
 title: Winter Scene Illustration
 date: '2015-09-01T15:00:00-04:00'
+layout: default
 categories:
 - Illustration
 ---

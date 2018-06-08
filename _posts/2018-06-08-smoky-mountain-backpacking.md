@@ -1,6 +1,7 @@
 ---
 title: Smoky Mountain Backpacking
 date: '2015-06-29T15:04:00-04:00'
+layout: default
 categories:
 - Personal
 ---

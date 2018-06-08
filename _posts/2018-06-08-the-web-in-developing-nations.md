@@ -1,6 +1,7 @@
 ---
 title: The Web in Developing Nations
 date: '2016-09-20T14:55:00-04:00'
+layout: default
 categories:
 - Personal
 ---

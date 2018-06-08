@@ -1,6 +1,7 @@
 ---
 title: Fully Custom eCommerce Platform
 date: '2014-11-10T15:05:00-05:00'
+layout: default
 categories:
 - PHP
 ---

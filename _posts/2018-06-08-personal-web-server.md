@@ -1,6 +1,7 @@
 ---
 title: Personal Web Server
 date: '2015-10-03T15:00:00-04:00'
+layout: default
 categories:
 - SysAdmin
 ---

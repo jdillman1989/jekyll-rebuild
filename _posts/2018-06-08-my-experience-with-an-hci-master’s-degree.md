@@ -1,6 +1,7 @@
 ---
 title: My Experience With an HCI Master’s Degree
 date: '2017-01-14T14:52:52-05:00'
+layout: default
 categories:
 - Personal
 ---

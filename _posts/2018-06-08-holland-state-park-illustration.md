@@ -1,6 +1,7 @@
 ---
 title: Holland State Park Illustration
 date: '2016-10-15T14:53:00-04:00'
+layout: default
 categories:
 - Illustration
 ---

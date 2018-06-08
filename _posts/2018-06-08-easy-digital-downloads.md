@@ -1,6 +1,7 @@
 ---
 title: Easy Digital Downloads
 date: '2015-07-15T15:02:00-04:00'
+layout: default
 categories:
 - WordPress
 ---

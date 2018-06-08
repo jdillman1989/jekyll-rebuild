@@ -1,6 +1,7 @@
 ---
 title: AJAX SVG Map WordPress Plugin
 date: '2014-09-03T15:07:00-04:00'
+layout: default
 categories:
 - JavaScript
 - PHP

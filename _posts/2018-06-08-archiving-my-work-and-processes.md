@@ -1,6 +1,7 @@
 ---
 title: Archiving my work and processes
 date: '2014-06-14T15:09:00-04:00'
+layout: default
 categories:
 - Personal
 ---

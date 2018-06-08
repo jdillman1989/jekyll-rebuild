@@ -1,6 +1,7 @@
 ---
 title: Build Processes
 date: '2015-12-18T14:59:00-05:00'
+layout: default
 categories:
 - JavaScript
 - SysAdmin

@@ -1,6 +1,7 @@
 ---
 title: Avoiding localStorage
 date: '2015-01-23T15:05:00-05:00'
+layout: default
 categories:
 - JavaScript
 ---

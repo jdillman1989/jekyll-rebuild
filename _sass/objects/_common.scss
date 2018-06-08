@@ -1,13 +1,19 @@
 body{
 	display: flex;
 	align-items: stretch;
-	justify-content: center;
+	justify-content: space-between;
+	@include breakpoint($breakPoint) {
+		display: block;
+	}
 }
 
 main{
 	background-color: $primary;
 	width: 100%;
 	transition: all 0.3s ease;
+	@include breakpoint($breakPoint) {
+		padding-top: 70px;
+	}
 	&.nightmode{
 		background-color: #101112;
 		color: $primary;

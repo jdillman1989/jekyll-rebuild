@@ -19,6 +19,11 @@ html, body{
 body{
 	margin: 0 auto;
 	font-family: $body;
+	background: linear-gradient(to right, $primary 40%, $secondary 60%);
+	max-width: 1500px;
+	@include breakpoint($breakPoint) {
+		background: $primary;
+	}
 }
 
 input, textarea, button{

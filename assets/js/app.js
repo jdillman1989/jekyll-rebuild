@@ -111,4 +111,59 @@ jQuery(document).ready(function($) {
 			}
 		}
 	});
+
+	////////////////
+	// Search API //
+	////////////////
+
+	$('#search').submit(function(e){
+		e.preventDefault();
+
+		var searchTerm = $('#searchTerms').val();
+		if(searchTerm.length > 1){
+			$.ajax({
+				type: 'GET',
+				url: '/search.php',
+				data: {s:searchTerm},
+				async: false,
+				complete: function(response) {
+					var results = JSON.parse(response.responseText);
+					console.log(results);
+					var html = '';
+
+					for (var i = 0; i < results['hits'].length; i++) {
+						if(results['hits'][i].type == 'post'){
+							html += '<article class="post">\
+										<h2><a href="' + results['hits'][i].url + '">' + results['hits'][i].title + '</a></h2>\
+										<div class="post-content">' + results['hits'][i].html + '</div>\
+									</article>';
+						}
+					}
+					$('.content-container').html(html);
+				}
+			});
+		}
+	});
+
+	if($('#searchTitle').length){
+		
+	}
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

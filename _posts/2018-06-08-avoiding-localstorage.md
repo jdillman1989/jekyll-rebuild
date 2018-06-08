@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Avoiding localStorage
 date: '2015-01-23T15:05:00-05:00'
+categories:
+- JavaScript
 ---
 I’ve worked on a few sites now that made use of localStorage in javascript. I try not to rely on writing cookies when it comes to site functionality because it increases page weight and it can be a little shady. Cookies are notorious for storing and accessing personal information on more malicious sites. For this reason, many people disable cookie storage. If core functionality of a site relies on localStorage, that means these people will simply not be able to use it, or their experience will be brutally interrupted by an alert. I don’t think a site’s functionality should be the responsibility of the client side.
 

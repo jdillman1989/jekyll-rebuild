@@ -1,7 +1,9 @@
 ---
-layout: default
 title: Data Structures
 date: '2016-06-02T14:56:00-04:00'
+categories:
+- JavaScript
+- PHP
 ---
 I’ve had some time to reflect on my work from the past few months, so I’d like to write about a couple of projects and some insights I’ve gained from them.
 

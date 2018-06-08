@@ -1,7 +1,9 @@
 ---
-layout: default
 title: Build Processes
 date: '2015-12-18T14:59:00-05:00'
+categories:
+- JavaScript
+- SysAdmin
 ---
 If there’s two things every developer loves talking about, it’s tooling and build processes. I’ll start by talking about the build process I’m currently using for my web projects.
 

@@ -1,7 +1,10 @@
 ---
-layout: default
 title: AJAX SVG Map WordPress Plugin
 date: '2014-09-03T15:07:00-04:00'
+categories:
+- JavaScript
+- PHP
+- WordPress
 ---
 I’ve been working on an interactive map WordPress plugin on and off since last September. It’s been an awesome learning experience.
 

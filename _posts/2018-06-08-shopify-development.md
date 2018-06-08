@@ -1,7 +1,9 @@
 ---
-layout: default
 title: Shopify Development
 date: '2017-03-22T14:51:00-04:00'
+categories:
+- JavaScript
+- PHP
 ---
 Recently I’ve been working on some custom development work for a few Shopify eCommerce sites. My work so far has included plugin apps and theme development.
 

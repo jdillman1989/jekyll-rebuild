@@ -1,7 +1,8 @@
 ---
-layout: default
 title: The Web in Developing Nations
 date: '2016-09-20T14:55:00-04:00'
+categories:
+- Personal
 ---
 Lately, my writing efforts have been entirely focused on my master’s degree in Human-Computer Interaction, so I thought I could at least post some of that work here for the time being.
 

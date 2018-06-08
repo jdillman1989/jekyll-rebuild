@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Personal Web Server
 date: '2015-10-03T15:00:00-04:00'
+categories:
+- SysAdmin
 ---
 I’ve had a few bad experiences with web hosting. When I first registered this URL several years ago, I naively chose the cheapest hosting I could find. I chose iPage, and fortunately it turned out to be a pretty decent service with good support. But when I wanted to start versioning my site with Git and running my own backup processes, I was pretty dismayed to find out that iPage doesn’t allow SSH in any capacity.
 

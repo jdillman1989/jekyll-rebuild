@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Easy Digital Downloads
 date: '2015-07-15T15:02:00-04:00'
+categories:
+- WordPress
 ---
 I want to express my appreciation for an open source project that recently made my life a lot easier.
 

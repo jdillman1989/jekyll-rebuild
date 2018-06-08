@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Fully Custom eCommerce Platform
 date: '2014-11-10T15:05:00-05:00'
+categories:
+- PHP
 ---
 I’m not able to link directly to the web-based admin dashboard for the PHP/MySQL eCommerce platform I helped build, so I’d like to describe it here in more detail.
 

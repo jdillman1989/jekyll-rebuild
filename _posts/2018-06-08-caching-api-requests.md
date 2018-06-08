@@ -1,7 +1,9 @@
 ---
-layout: default
 title: Caching API Requests
 date: '2018-02-21T14:47:00-05:00'
+categories:
+- PHP
+- WordPress
 ---
 I recently helped to complete development work on a pretty unique web application. The organization had an idea to create a place for people find out about the accessibility of many different business locations. Their hope is help people with physical disabilities better plan out any business or errands they have ahead of time, so they can choose the most accessible locations. They also believe this will help push demand for businesses to become more handicap accessible.
 

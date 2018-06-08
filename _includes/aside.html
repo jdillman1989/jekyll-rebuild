@@ -1,0 +1,29 @@
+<aside>
+	<div class="aside-container">
+		<a href="{{ site.url }}" class="logo">
+			{% include svg/logo.svg %}
+		</a>
+		<h1>Jesse Dillman</h1>
+	</div>
+	<div class="aside-container scroll">
+		<form action="/" class="search">
+			<input type="text">
+			<button class="search">
+				{% include svg/search.svg %}
+			</button>
+		</form>
+		<nav>
+			<a href="{{ site.url }}">Blog</a>
+			<a href="{{ site.url }}/work/">Work</a>
+			<a href="https://github.com/jdillman1989" target="_blank">GitHub</a>
+		</nav>
+		<div class="controls">
+			<div id="nightmode">
+				{% include svg/nightmode.svg %}
+			</div>
+			<div id="daymode">
+				{% include svg/daymode.svg %}
+			</div>
+		</div>
+	</div>
+</aside>

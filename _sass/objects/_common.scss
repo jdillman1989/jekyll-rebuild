@@ -1,0 +1,15 @@
+body{
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+
+main{
+	background-color: $primary;
+	width: 100%;
+	transition: all 0.3s ease;
+	&.nightmode{
+		background-color: #101112;
+		color: $primary;
+	}
+}

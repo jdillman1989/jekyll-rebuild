@@ -8,5 +8,15 @@ baseurl: ""
 url: ""
 markdown: kramdown
 permalink: /blog/:title/
+paginate_path: "/page/:num/"
 sass:
   sass_dir: _sass
+paginate: 5
+plugins: [jekyll-paginate, jekyll-archives]
+collections:
+- work
+jekyll-archives:
+  enabled: [categories]
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'

@@ -1,0 +1,13 @@
+---
+layout: default
+permalink: /work/
+---
+
+{% for item in site.work %}
+	<article class="post">
+		<h2>{{ item.title }}</h2> 
+		<div class="post-content">
+			{{ item.content }}
+		</div>
+	</article>
+{% endfor %}

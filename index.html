@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts %}
+	<article class="post">
+		<h2>{{ post.title }}</h2> 
+		<div class="post-meta">
+			<p class="date"><em>{{ post.date | date: "%B %-d, %Y" }}</em> | </p>
+			<ul class="post-categories">
+				{% for cat in post.categories %}
+					<li><a href="{{ site.url }}/category/{{ cat | slugify }}/" rel="category tag">{{ cat }}</a></li>
+				{% endfor %}							
+			</ul>
+		</div>
+		<div class="post-content">
+			{{ post.content }}
+		</div>
+	</article>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+	<nav class="post-nav">
+		<a class="post-nav-link next jd-button secondary back {% unless paginator.previous_page %}disabled{% endunless %}" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
+		<a class="post-nav-link prev jd-button secondary {% unless paginator.next_page %}disabled{% endunless %}" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a>
+	</nav>
+{% endif %}

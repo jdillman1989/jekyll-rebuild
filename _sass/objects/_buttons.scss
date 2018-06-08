@@ -1,0 +1,101 @@
+.jd-button{
+	min-width: 180px;
+}
+
+.jd-button.disabled{
+	pointer-events: none;
+	opacity: 0.1;
+}
+
+.jd-button{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	background-color: transparent;
+	color: $textPrimary;
+	font-size: $fontsizeP;
+	text-transform: uppercase;
+	padding: 11px 20px 9px 20px;
+	font-family: $heading;
+	font-weight: 200;
+	text-align: center;
+	transition: all 0.3s ease;
+	border-radius: 0;
+	border: none;
+	line-height: 1em;
+	&:after{
+		display: inline-block;
+		content: ' →';
+		transition: all 0.3s ease;
+		color: $textPrimary;
+		margin-left: 12px; 
+	}
+	&:before{
+		color: $textPrimary;
+	}
+	&:hover{
+		&:after{
+			transform: translate(5px, 0);
+		}
+	}
+
+	&.primary{
+		background-color: $primary;
+		color: #FFF;
+		&:after{
+			color: #FFF;
+		}
+		&:before{
+			color: #FFF;
+		}
+		&:hover{
+			background-color: $tertiary;
+		}
+	}
+
+	&.secondary{
+		background-color: $secondary;
+		color: #FFF;
+		&:after{
+			color: #FFF;
+		}
+		&:before{
+			color: #FFF;
+		}
+		&:hover{
+			background-color: $tertiary;
+		}
+	}
+
+	&.tertiary{
+		background-color: $tertiary;
+		color: #FFF;
+		&:after{
+			color: #FFF;
+		}
+		&:before{
+			color: #FFF;
+		}
+		&:hover{
+			background-color: $primary;
+		}
+	}
+
+	&.back{
+		&:after{
+			display: none;
+		}
+		&:before{
+			display: inline-block;
+			content: '← ';
+			transition: all 0.3s ease;
+			margin-right: 12px; 
+		}
+		&:hover{
+			&:before{
+				transform: translate(-5px, 0);
+			}
+		}
+	}
+}

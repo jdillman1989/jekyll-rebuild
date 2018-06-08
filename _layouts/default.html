@@ -1,47 +1,10 @@
-<html lang="en-US"><head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Jesse Dillman</title>
-	<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" type="text/css" media="all">
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
-<body>
-	<div class="container animate">
-		<div class="content">
+{% include header.html %}
 
-			{% for post in site.posts %}
-				<div class="post-container">
-					<h2>{{ post.title }}</h2> 
-					<div class="meta">
-						<p class="date"><em>{{ post.date }}</em> | </p>
-						<p class="date">{{ post.url }}</p>
-						<ul class="post-categories">
-							{% for cat in post.category %}
-								<li><a href="http://jdillman.com/category/php/" rel="category tag">PHP</a></li>
-							{% endfor %}							
-						</ul>
-					</div>
-					{{ post.content }}
-				</div>
-			{% endfor %}
+<main>
+	<section class="content-container">
+		{{ content }}
+	</section>
+</main>
 
-			<div class="post-container">
-				<p class="previous paged animate"><a href="http://jdillman.com/page/2/">Previous »</a></p>
-				<p class="next paged animate"></p>
-			</div>
-		</div>
-		{% include header.html %}
-	</div>
-	<script>
-		if (window.netlifyIdentity) {
-			window.netlifyIdentity.on("init", user => {
-				if (!user) {
-					window.netlifyIdentity.on("login", () => {
-						document.location.href = "/admin/";
-					});
-				}
-			});
-		}
-	</script>
-</body>
-</html>
+{% include aside.html %}
+{% include footer.html %}

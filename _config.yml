@@ -20,4 +20,4 @@ algolia:
   application_id: 'Y2N7OVVUWU'
   index_name: 'jdillman'
   nodes_to_index: 'p,blockquote,li,h2,h3'
-exclude: [netlify.toml]
+exclude: [netlify.toml, bin]

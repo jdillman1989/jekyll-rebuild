@@ -1,6 +1,6 @@
 ---
 title: JAMStack Part I
-date: '2018-08-22T15:07:00-04:00'
+date: '2018-10-10T15:07:00-04:00'
 layout: default
 categories:
 - JavaScript
